@@ -34,7 +34,6 @@ cacheSolve <- function(x, ...) {
   
   ## check if there is the matrix   
   if(!is.null(i)) {
-    message("getting cached data")
     return(i)
   }
   ## if not: get the inverse of the matrix   
